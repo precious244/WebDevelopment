@@ -1,0 +1,19 @@
+<div class="center-content">
+    <form [formGroup]="formGroupProfile">
+        <div class="form-group">
+            <div>Name</div>
+            <div><input formControlName="name" class= "input" type="text" placeholder="name"></div>
+        </div>
+        <div class="form-group">
+            <div>Age</div>
+            <div><input formControlName="age" class= "input" type="text" placeholder="age"></div>
+        </div>
+        <div class="center-content">
+            {{ message }}
+        </div>
+    </form>
+<div class="center-content">
+    <button (click)="submitProfileGet()" type="button">Submit Profile Get</button>
+    <button (click)="submitProfilePost()" type="button">Submit Profile Post</button>
+</div>
+</div>

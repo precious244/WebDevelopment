@@ -1,0 +1,35 @@
+:root {
+  --color1: #fbefcc;
+  --color2: #f9ccac;
+  --color3: #f4a688;
+  --color4: #e0876a;
+  --gray: #858796;
+  --gray-dark: #5a5c69;
+}
+
+.sidebar {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100vh;
+  background: #e0876a;
+  position: fixed;
+  padding: 72px 16px 16px 16px;
+}
+
+.main-content {
+  position: relative;
+  padding-top: 56px;
+  margin-left: 300px;
+  min-height: calc(100% - 56px);
+  background: #fbefcc;
+}
+
+.body-content {
+  padding: 16px 16px 64px 16px;
+  background: white;
+}
+
+.column-flex {
+  width: 25%;
+}
